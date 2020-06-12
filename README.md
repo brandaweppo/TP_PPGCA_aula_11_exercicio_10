@@ -80,10 +80,11 @@ docker-compose ps
 docker-compose logs -t -f
 ```
 
-###### 16. Verificar logs somente do atendente
+###### 16. Verificar logs somente do atendente, executando o comando abaixo. Acompanhe um exemplo na imagem logo a seguir.
 ```
 docker-compose logs -t -f atendente
 ```
+![Captura de Tela (121)](https://user-images.githubusercontent.com/65691783/84553983-477f3600-acec-11ea-8dce-0a374693df68.png)
 
 ###### 17. Acessar localhost e realizar 3 testes de atendimento e verificar se é possível visualizar as solicitações em "logs"
 
