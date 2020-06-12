@@ -86,9 +86,11 @@ docker-compose logs -t -f atendente
 ```
 ![Captura de Tela (121)](https://user-images.githubusercontent.com/65691783/84553983-477f3600-acec-11ea-8dce-0a374693df68.png)
 
-###### 17. Acessar localhost e realizar 3 testes de atendimento e verificar se é possível visualizar as solicitações em "logs"
+###### 17. Acessar localhost e realizar 3 testes de atendimento, após verifique se é possível visualizar as solicitações em "logs". Acompanhe um exemplo na imagem abaixo:
 
-###### 18. Verificar se as informações estão sendo inseridas no banco de dados
+![Captura de Tela (122)](https://user-images.githubusercontent.com/65691783/84554436-2c152a80-acee-11ea-9336-63470c9c3197.png)
+
+###### 18. Verificar se as informações estão sendo inseridas no banco de dados, executando o comando abaixo. Acompanhe um exemplo na imagem logo a seguir.
 ```
 docker-compose exec db psql -U postgres -d solicitacoes -c 'select * from pedidos'
 ```
