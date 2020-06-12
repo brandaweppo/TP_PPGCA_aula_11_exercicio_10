@@ -94,3 +94,4 @@ docker-compose logs -t -f atendente
 ```
 docker-compose exec db psql -U postgres -d solicitacoes -c 'select * from pedidos'
 ```
+![Captura de Tela (123)](https://user-images.githubusercontent.com/65691783/84554512-8c0bd100-acee-11ea-83f4-5e84a80a93e4.png)
